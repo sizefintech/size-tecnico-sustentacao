@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "size.FichaCadastrak.Application/1.0.0": {
+        "runtime": {
+          "size.FichaCadastrak.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "size.FichaCadastrak.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

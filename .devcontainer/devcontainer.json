@@ -1,0 +1,64 @@
+{
+  "name": "Size - API Antecipação (.NET 8 + SQL Server)",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/dotnet:2": {
+      "version": "8.0",
+      "installUsingApt": false
+    },
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-mssql.mssql",
+        "humao.rest-client",
+        "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+        "patcx.vscode-nuget-gallery",
+        "jmrog.vscode-nuget-package-manager",
+        "formulahendry.dotnet-test-explorer"
+      ],
+      "settings": {
+        "dotnet.defaultSolution": "size-tecnico-sustentacao.sln",
+        "mssql.connections": [
+          {
+            "server": "sqlserver",
+            "database": "SizeAntecipacao",
+            "authenticationType": "SqlLogin",
+            "user": "sa",
+            "password": "Size@2024!Strong",
+            "savePassword": true
+          }
+        ],
+        "files.exclude": {
+          "**/bin": true,
+          "**/obj": true
+        }
+      }
+    }
+  },
+
+  "forwardPorts": [5075, 1433],
+  "portsAttributes": {
+    "5075": {
+      "label": "API - Size Antecipação",
+      "onAutoForward": "openBrowserOnce",
+      "protocol": "http"
+    },
+    "1433": {
+      "label": "SQL Server",
+      "onAutoForward": "silent"
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+
+  "remoteUser": "vscode"
+}
