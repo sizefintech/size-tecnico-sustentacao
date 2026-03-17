@@ -1,0 +1,67 @@
+### Variáveis (ajuste com seus IDs reais)
+@baseUrl = https://localhost:7001
+@tomadorId = seu-tomador-id-aqui
+@duplicataId = sua-duplicata-id-aqui
+
+### 1. Listar Tomadores (para obter IDs)
+GET {{baseUrl}}/Tomador
+Accept: application/json
+
+###
+
+### 2. Ver Catálogo de Recebíveis de um Tomador
+GET {{baseUrl}}/api/catalogo-recebiveis/{{tomadorId}}
+Accept: application/json
+
+###
+
+### 3. Ver Carrinho do Tomador
+GET {{baseUrl}}/api/carrinho/{{tomadorId}}
+Accept: application/json
+
+###
+
+### 4. Adicionar Duplicata ao Carrinho
+POST {{baseUrl}}/api/carrinho/inserir-duplicata
+Content-Type: application/json
+
+{
+  "tomadorId": "{{tomadorId}}",
+  "duplicatasIds": [
+    "{{duplicataId}}"
+  ]
+}
+
+###
+
+### 5. Remover Duplicata do Carrinho
+POST {{baseUrl}}/api/carrinho/remover-duplicata
+Content-Type: application/json
+
+{
+  "tomadorId": "{{tomadorId}}",
+  "duplicatasIds": [
+    "{{duplicataId}}"
+  ]
+}
+
+###
+
+### 6. Realizar Checkout
+POST {{baseUrl}}/api/carrinho/checkout/{{tomadorId}}
+Accept: application/json
+
+###
+
+### 7. Consultar Operação por Código
+@codigoOperacao = OP-20240101-001
+GET {{baseUrl}}/api/operacao/codigo/{{codigoOperacao}}
+Accept: application/json
+
+###
+
+### 8. Health Check (se disponível)
+GET {{baseUrl}}/health
+Accept: application/json
+
+###

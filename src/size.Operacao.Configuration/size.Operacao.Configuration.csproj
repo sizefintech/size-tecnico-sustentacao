@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\size.Operacao.Application\size.Operacao.Application.csproj" />
+    <ProjectReference Include="..\size.Operacao.Business\size.Operacao.Business.csproj" />
+    <ProjectReference Include="..\size.Operacao.Data\size.Operacao.Data.csproj" />
+    <ProjectReference Include="..\size.Core\size.Core.csproj" />
+  </ItemGroup>
+
+</Project>
