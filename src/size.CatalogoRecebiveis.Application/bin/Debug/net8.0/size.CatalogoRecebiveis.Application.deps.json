@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "size.CatalogoRecebiveis.Application/1.0.0": {
+        "runtime": {
+          "size.CatalogoRecebiveis.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "size.CatalogoRecebiveis.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/dotnet:8.0
+    volumes:
+      - ../..:/workspace:cached
+    command: sleep infinity
+    network_mode: service:sqlserver
+    depends_on:
+      - sqlserver
+    environment:
+      - DOTNET_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Development
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    restart: unless-stopped
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Size@2024!Strong
+      - MSSQL_PID=Developer
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+      - ../script.sql:/docker-entrypoint-initdb.d/script.sql:ro
+    ports:
+      - "1433:1433"
+
+volumes:
+  sqlserver-data:
