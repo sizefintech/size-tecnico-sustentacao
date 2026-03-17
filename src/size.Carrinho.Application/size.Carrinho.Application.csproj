@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\size.Carrinho.Business\size.Carrinho.Business.csproj" />
+    <ProjectReference Include="..\size.CatalogoRecebiveis.Business\size.CatalogoRecebiveis.Business.csproj" />
+    <ProjectReference Include="..\size.Core\size.Core.csproj" />
+  </ItemGroup>
+
+</Project>

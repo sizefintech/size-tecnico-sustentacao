@@ -1,0 +1,1289 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size-antecipacao\\size-antecipacao.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size-antecipacao\\size-antecipacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size-antecipacao\\size-antecipacao.csproj",
+        "projectName": "size-antecipacao",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size-antecipacao\\size-antecipacao.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size-antecipacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Configurations\\size.CatalogoRecebiveis.Configurations.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Configurations\\size.CatalogoRecebiveis.Configurations.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Configurations\\size.FichaCadastral.Configurations.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Configurations\\size.FichaCadastral.Configurations.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj",
+        "projectName": "size.Carrinho.Business",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj",
+        "projectName": "size.Carrinho.Configuration",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj",
+        "projectName": "size.Carrinho.Data",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj",
+        "projectName": "size.CatalogoRecebiveis.Business",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Configurations\\size.CatalogoRecebiveis.Configurations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Configurations\\size.CatalogoRecebiveis.Configurations.csproj",
+        "projectName": "size.CatalogoRecebiveis.Configurations",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Configurations\\size.CatalogoRecebiveis.Configurations.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Data\\size.CatalogoRecebiveis.Data.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Data\\size.CatalogoRecebiveis.Data.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\size.FichaCadastral.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\size.FichaCadastral.Business.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\size.fichaCadastral.Data.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\size.fichaCadastral.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Data\\size.CatalogoRecebiveis.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Data\\size.CatalogoRecebiveis.Data.csproj",
+        "projectName": "size.CatalogoRecebiveis.Data",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Data\\size.CatalogoRecebiveis.Data.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj",
+        "projectName": "size.Core",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EFCore.BulkExtensions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.6.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\size.FichaCadastral.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\size.FichaCadastral.Business.csproj",
+        "projectName": "size.FichaCadastral.Business",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\size.FichaCadastral.Business.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Configurations\\size.FichaCadastral.Configurations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Configurations\\size.FichaCadastral.Configurations.csproj",
+        "projectName": "size.FichaCadastral.Configurations",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Configurations\\size.FichaCadastral.Configurations.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\size.fichaCadastral.Data.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\size.fichaCadastral.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\size.fichaCadastral.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\size.fichaCadastral.Data.csproj",
+        "projectName": "size.fichaCadastral.Data",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\size.fichaCadastral.Data.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.fichaCadastral.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\size.FichaCadastral.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastral.Business\\size.FichaCadastral.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\size.Operacao.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\size.Operacao.Application.csproj",
+        "projectName": "size.Operacao.Application",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\size.Operacao.Application.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj",
+        "projectName": "size.Operacao.Business",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
+        "projectName": "size.Operacao.Configuration",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\size.Operacao.Application.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\size.Operacao.Application.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\size.Operacao.Data.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\size.Operacao.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\size.Operacao.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\size.Operacao.Data.csproj",
+        "projectName": "size.Operacao.Data",
+        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\size.Operacao.Data.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              },
+              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj": {
+                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

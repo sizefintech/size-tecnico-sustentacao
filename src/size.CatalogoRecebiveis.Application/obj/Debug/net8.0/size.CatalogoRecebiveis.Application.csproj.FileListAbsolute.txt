@@ -1,0 +1,11 @@
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.deps.json
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.dll
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.pdb
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\size.CatalogoRecebiveis.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\size.CatalogoRecebiveis.Application.AssemblyInfoInputs.cache
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\size.CatalogoRecebiveis.Application.AssemblyInfo.cs
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\size.CatalogoRecebiveis.Application.csproj.CoreCompileInputs.cache
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\size.CatalogoRecebiveis.Application.dll
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\refint\size.CatalogoRecebiveis.Application.dll
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\size.CatalogoRecebiveis.Application.pdb
+C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Application\obj\Debug\net8.0\ref\size.CatalogoRecebiveis.Application.dll

@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "size-antecipacao",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Tomador": {
+      "get": {
+        "tags": [
+          "Tomador"
+        ],
+        "operationId": "Teste",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

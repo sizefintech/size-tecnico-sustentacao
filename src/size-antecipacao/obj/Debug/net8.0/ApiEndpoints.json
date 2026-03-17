@@ -1,0 +1,13 @@
+[
+  {
+    "ContainingType": "size_antecipacao.Controllers.TomadorController",
+    "Method": "Get",
+    "RelativePath": "Tomador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "Teste"
+  }
+]
