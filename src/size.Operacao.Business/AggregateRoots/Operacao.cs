@@ -1,11 +1,12 @@
 ﻿using size.Core.DomainObjects;
+using size.Operacao.Business.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace size.Operacao.Business.Entities
+namespace size.Operacao.Business.AggregateRoots
 {
     public class Operacao : Entity, IAggregateRoot
     {
@@ -23,13 +24,21 @@ namespace size.Operacao.Business.Entities
 
         private Operacao() { }
 
-        public Operacao(string tomadorId, string codigo, decimal taxaAntecipacao, int prazo)
+        public Operacao(string tomadorId, List<Duplicata> duplicatas)
         {
             TomadorId = tomadorId;
-            Codigo = codigo;
-            TaxaAntecipacao = taxaAntecipacao;
-            Prazo = prazo;
+            AdicionarDuplicatas(duplicatas);
+            TaxaAntecipacao = _duplicatas.Sum(x=> x.CalcularTaxaAntecipacao());
+            Prazo =(int)_duplicatas.Average(x=> x.Prazo()) ;
             DataCriacao = DateTime.Now;
+            ValorBruto = _duplicatas.Sum(x => x.Valor);
+            ValorLiquido = _duplicatas.Sum(x => x.ValorLiquido());
+            VincularOperacaoAsDuplicatas();
+        }
+
+        private void VincularOperacaoAsDuplicatas()
+        {
+            _duplicatas.ForEach(d => d.VincularOperacao(Id));
         }
 
         public void AdicionarDuplicata(Duplicata duplicata)
@@ -66,26 +75,10 @@ namespace size.Operacao.Business.Entities
             ValorBruto = _duplicatas.Sum(d => d.Valor);
             ValorLiquido = ValorBruto * (1 - TaxaAntecipacao);
         }
-    }
 
-    public class Duplicata : Entity
-    {
-        public string Numero { get; private set; }
-        public DateTime Vencimento { get; private set; }
-        public decimal Valor { get; private set; }
-
-        /*EF*/
-        public Operacao Operacao { get; private set; }
-        public string OperacaoId { get; private set; }
-
-        private Duplicata() { }
-
-        public Duplicata(string numero, DateTime vencimento, decimal valor, string operacaoId)
-        {
-            Numero = numero;
-            Vencimento = vencimento;
-            Valor = valor;
-            OperacaoId = operacaoId;
+        private void AdicionarDuplicatas(List<Duplicata> duplicatas)
+        {            
+            _duplicatas.AddRange(duplicatas);
         }
     }
 }

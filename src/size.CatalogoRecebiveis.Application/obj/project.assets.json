@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Application\\size.CatalogoRecebiveis.Application.csproj",
+      "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Application\\size.CatalogoRecebiveis.Application.csproj",
       "projectName": "size.CatalogoRecebiveis.Application",
-      "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Application\\size.CatalogoRecebiveis.Application.csproj",
+      "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Application\\size.CatalogoRecebiveis.Application.csproj",
       "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.CatalogoRecebiveis.Application\\obj\\",
+      "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

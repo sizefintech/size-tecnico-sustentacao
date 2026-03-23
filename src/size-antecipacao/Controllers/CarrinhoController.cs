@@ -1,28 +1,62 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using size.ApplicationService.ProcessamentoCheckout.Interfaces;
+using size.Carrinho.Business.DTOs;
+using size.Core.Communication;
+using size.Core.DTOs;
+using size_antecipacao.Configurations;
+using System.Threading.Tasks;
 
 namespace size_antecipacao.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class CarrinhoController : ControllerBase
+    public class CarrinhoController : MainController
     {
+        private readonly IProcessamentoCheckoutAppService _processamentoCheckoutAppService;
+
+        public CarrinhoController(INotificador notificador, IProcessamentoCheckoutAppService processamentoCheckoutAppService) : base(notificador)
+        {
+            _processamentoCheckoutAppService = processamentoCheckoutAppService;
+        }
 
         [HttpPost("inserir-duplicata")]
-        public IActionResult InserirDuplicata()
+        public async Task<IActionResult> InserirDuplicata(InserirDuplicata inserirDuplicata)
         {
-            return Ok();
+            await _processamentoCheckoutAppService.AdicionarNoCarrinho(inserirDuplicata.TomadorId, inserirDuplicata.DuplicatasIds);
+
+            if (_notificador.TemNotificacao()) return CustomResponse();
+
+            return CustomResponse(await ToCarrinhoCompletoDTO(inserirDuplicata.TomadorId));
         }
 
         [HttpPost("remover-duplicata")]
-        public IActionResult RemoverDuplicata()
+        public async Task<IActionResult> RemoverDuplicata(RemoverDuplicata removerDuplicata)
         {
-            return Ok();
+            await _processamentoCheckoutAppService.RemoverDoCarrinho(removerDuplicata.TomadorId, removerDuplicata.DuplicatasIds);
+
+            if (_notificador.TemNotificacao()) return CustomResponse();
+
+            return CustomResponse(await ToCarrinhoCompletoDTO(removerDuplicata.TomadorId));
         }
 
         [HttpPost("checkout/{tomadorId}")]
-        public IActionResult Checkout([FromRoute] string tomadorId)
+        public async Task<IActionResult> Checkout([FromRoute] string tomadorId)
         {
-            return Ok();
+            var operacao = _processamentoCheckoutAppService.Checkout(tomadorId);
+            return CustomResponse(operacao);
+        }
+
+        [HttpGet("{tomadorId}")]
+        public async Task<IActionResult> ObterCarrinho([FromRoute] string tomadorId)
+        {
+            var carrinho = await _processamentoCheckoutAppService.Obter(tomadorId);
+            return CustomResponse(carrinho);
+        }
+
+
+        private async Task<CarrinhoCompletoDTO> ToCarrinhoCompletoDTO(string tomadorId)
+        {
+            return await _processamentoCheckoutAppService.Obter(tomadorId);
         }
     }
 }

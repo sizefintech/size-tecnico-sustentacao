@@ -1,19 +1,20 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.runtimeconfig.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.Cat.11CB19FD.Up2Date
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\refint\size.CatalogoRecebiveis.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.genruntimeconfig.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\ref\size.CatalogoRecebiveis.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.runtimeconfig.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.Cat.11CB19FD.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\refint\size.CatalogoRecebiveis.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\size.CatalogoRecebiveis.Data.genruntimeconfig.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.CatalogoRecebiveis.Data\obj\Debug\net8.0\ref\size.CatalogoRecebiveis.Data.dll

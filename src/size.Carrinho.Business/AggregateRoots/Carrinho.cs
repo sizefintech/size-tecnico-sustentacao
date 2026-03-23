@@ -36,7 +36,13 @@ namespace size.Carrinho.Business.AggregateRoots
             if (ExisteDuplicata(duplicata.Id))
                 throw new DomainException("Duplicata ja existe no carrinho");
 
+            VincularDuplicataAoCarrinho(duplicata);
             _duplicatas.Add(duplicata);
+        }
+
+        private void VincularDuplicataAoCarrinho(Duplicata duplicata)
+        {
+            duplicata.SetarCarrinho(Id);
         }
 
         public void InserirDuplicatas(IEnumerable<string> duplicatasId)
@@ -71,10 +77,10 @@ namespace size.Carrinho.Business.AggregateRoots
             InicioProcessamento = DateTime.Now;
         }
 
-        public void LimparProcessamento()
+        public void FinalizarProcessamento()
         {
             InicioProcessamento = null;
+            _duplicatas = new List<Duplicata>();
         }
-
     }
 }

@@ -1,237 +1,247 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\appsettings.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size-antecipacao.staticwebassets.endpoints.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size-antecipacao.exe
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size-antecipacao.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size-antecipacao.runtimeconfig.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size-antecipacao.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size-antecipacao.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\EFCore.BulkExtensions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\MedallionTopologicalSort.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.HierarchyId.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.SqlServer.Types.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\NetTopologySuite.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\NetTopologySuite.IO.SpatiaLite.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\NetTopologySuite.IO.SqlServerBytes.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Npgsql.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Polly.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Polly.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\SQLitePCLRaw.core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Formats.Asn1.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.IO.Pipelines.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Text.Json.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\de\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\es\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\it\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.SqlServer.Types.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win-x64\native\SqlServerSpatial160.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win-x86\native\SqlServerSpatial160.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Configurations.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.fichaCadastral.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Configurations.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.fichaCadastral.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\scopedcss\bundle\size-antecipacao.styles.css
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\staticwebassets.build.json.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-ant.31F8E3A1.Up2Date
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\refint\size-antecipacao.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\size-antecipacao.genruntimeconfig.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\obj\Debug\net8.0\ref\size-antecipacao.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Humanizer.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Build.Locator.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Configurations.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Configurations.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Configuration.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Configuration.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Configuration.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Configuration.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size-antecipacao\bin\Debug\net8.0\size.Operacao.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\appsettings.Development.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\appsettings.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size-antecipacao.staticwebassets.endpoints.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size-antecipacao.exe
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size-antecipacao.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size-antecipacao.runtimeconfig.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size-antecipacao.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size-antecipacao.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Azure.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Azure.Identity.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\EFCore.BulkExtensions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Humanizer.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\MedallionTopologicalSort.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.HierarchyId.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.SqlServer.Types.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\MySqlConnector.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\NetTopologySuite.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\NetTopologySuite.IO.SpatiaLite.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\NetTopologySuite.IO.SqlServerBytes.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Npgsql.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Polly.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Polly.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.ClientModel.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.CodeDom.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Memory.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Text.Json.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\de\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\es\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\fr\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\it\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ja\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ko\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\pt-BR\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\ru\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win-x64\native\SqlServerSpatial160.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win-x86\native\SqlServerSpatial160.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Configuration.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Configurations.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Configurations.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.fichaCadastral.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Configuration.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Configuration.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Configurations.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Configurations.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Configuration.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Carrinho.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.CatalogoRecebiveis.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.FichaCadastral.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.fichaCadastral.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\bin\Debug\net8.0\size.Operacao.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.MvcApplicationPartsAssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.MvcApplicationPartsAssemblyInfo.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\scopedcss\bundle\size-antecipacao.styles.css
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\staticwebassets.build.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\staticwebassets.development.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\swae.build.ex.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-ant.31F8E3A1.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\refint\size-antecipacao.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\size-antecipacao.genruntimeconfig.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size-antecipacao\obj\Debug\net8.0\ref\size-antecipacao.dll

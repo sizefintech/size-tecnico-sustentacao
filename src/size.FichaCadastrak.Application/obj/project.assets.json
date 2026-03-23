@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastrak.Application\\size.FichaCadastral.Application.csproj",
+      "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.FichaCadastrak.Application\\size.FichaCadastral.Application.csproj",
       "projectName": "size.FichaCadastral.Application",
-      "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastrak.Application\\size.FichaCadastral.Application.csproj",
+      "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.FichaCadastrak.Application\\size.FichaCadastral.Application.csproj",
       "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.FichaCadastrak.Application\\obj\\",
+      "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.FichaCadastrak.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

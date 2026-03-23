@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace size.Operacao.Data.Mappings
 {
-    public class OperacaoMapping : IEntityTypeConfiguration<Business.Entities.Operacao>
+    public class OperacaoMapping : IEntityTypeConfiguration<Business.AggregateRoots.Operacao>
     {
-        public void Configure(EntityTypeBuilder<Business.Entities.Operacao> builder)
+        public void Configure(EntityTypeBuilder<Business.AggregateRoots.Operacao> builder)
         {
             builder.HasKey(o => o.Id);
 
@@ -15,7 +15,8 @@ namespace size.Operacao.Data.Mappings
 
             builder.Property(o => o.Codigo)
                 .IsRequired()
-                .HasColumnType("varchar(200)");
+                .HasColumnType("varchar(200)")
+                 .HasDefaultValueSql("CAST(NEXT VALUE FOR dbo.CodigoSequence AS VARCHAR(20))");
 
             builder.Property(o => o.ValorBruto)
                 .IsRequired()

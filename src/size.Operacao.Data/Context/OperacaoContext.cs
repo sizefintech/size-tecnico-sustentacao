@@ -12,7 +12,7 @@ namespace size.Operacao.Data.Context
         {
         }
 
-        public DbSet<Business.Entities.Operacao> Operacoes { get; set; }
+        public DbSet<Business.AggregateRoots.Operacao> Operacoes { get; set; }
         public DbSet<Duplicata> Duplicatas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

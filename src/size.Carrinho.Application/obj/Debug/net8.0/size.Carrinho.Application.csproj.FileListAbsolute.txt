@@ -1,19 +1,20 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Application.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\refint\size.Carrinho.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\ref\size.Carrinho.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Application\obj\Debug\net8.0\size.Car.CAD4E5F1.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Application.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.Carrinho.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Car.CAD4E5F1.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\refint\size.Carrinho.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\size.Carrinho.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Application\obj\Debug\net8.0\ref\size.Carrinho.Application.dll

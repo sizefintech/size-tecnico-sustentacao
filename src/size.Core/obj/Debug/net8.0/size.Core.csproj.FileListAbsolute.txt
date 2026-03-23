@@ -1,12 +1,13 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\bin\Debug\net8.0\size.Core.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\size.Core.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\size.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\size.Core.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\size.Core.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\size.Core.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\refint\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Core\obj\Debug\net8.0\ref\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\bin\Debug\net8.0\size.Core.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\refint\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Core\obj\Debug\net8.0\ref\size.Core.dll

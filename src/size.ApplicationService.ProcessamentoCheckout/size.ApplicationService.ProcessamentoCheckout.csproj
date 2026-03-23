@@ -10,6 +10,7 @@
     <ProjectReference Include="..\size.Carrinho.Application\size.Carrinho.Application.csproj" />
     <ProjectReference Include="..\size.CatalogoRecebiveis.Application\size.CatalogoRecebiveis.Application.csproj" />
     <ProjectReference Include="..\size.FichaCadastrak.Application\size.FichaCadastral.Application.csproj" />
+    <ProjectReference Include="..\size.Operacao.Business\size.Operacao.Business.csproj" />
   </ItemGroup>
 
 </Project>

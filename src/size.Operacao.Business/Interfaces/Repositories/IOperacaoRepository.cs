@@ -2,13 +2,14 @@ using size.Core.Data;
 
 namespace size.Operacao.Business.Interfaces.Repositories
 {
-    public interface IOperacaoRepository : IRepository<Entities.Operacao>
+    public interface IOperacaoRepository : IRepository<AggregateRoots.Operacao>
     {
-        Task<Entities.Operacao> ObterPorCodigo(string codigo);
-        Task<Entities.Operacao> ObterOperacaoComDuplicatas(string operacaoId);
-        Task<IEnumerable<Entities.Operacao>> ObterPorTomadorId(string tomadorId);
-        void Adicionar(Entities.Operacao operacao);
-        void Atualizar(Entities.Operacao operacao);
-        void Remover(Entities.Operacao operacao);
+        Task<AggregateRoots.Operacao> ObterPorCodigo(string codigo);
+        Task<AggregateRoots.Operacao> ObterPorId(string id);
+        Task<AggregateRoots.Operacao> ObterOperacaoComDuplicatas(string operacaoId);
+        Task<IEnumerable<AggregateRoots.Operacao>> ObterPorTomadorId(string tomadorId);
+        void Adicionar(AggregateRoots.Operacao operacao);
+        void Atualizar(AggregateRoots.Operacao operacao);
+        void Remover(AggregateRoots.Operacao operacao);
     }
 }

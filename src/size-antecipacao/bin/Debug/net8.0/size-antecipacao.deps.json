@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.0",
           "Swashbuckle.AspNetCore": "6.6.2",
+          "size.ApplicationService.ProcessamentoCheckout": "1.0.0",
           "size.Carrinho.Configuration": "1.0.0",
           "size.CatalogoRecebiveis.Configurations": "1.0.0",
           "size.FichaCadastral.Configurations": "1.0.0",
@@ -994,6 +995,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
       "Npgsql/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
@@ -1353,6 +1362,33 @@
           }
         }
       },
+      "size.ApplicationService.ProcessamentoCheckout/1.0.0": {
+        "dependencies": {
+          "size.Carrinho.Application": "1.0.0",
+          "size.CatalogoRecebiveis.Application": "1.0.0",
+          "size.FichaCadastral.Application": "1.0.0",
+          "size.Operacao.Business": "1.0.0"
+        },
+        "runtime": {
+          "size.ApplicationService.ProcessamentoCheckout.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "size.Carrinho.Application/1.0.0": {
+        "dependencies": {
+          "size.Carrinho.Business": "1.0.0",
+          "size.CatalogoRecebiveis.Business": "1.0.0",
+          "size.Core": "1.0.0"
+        },
+        "runtime": {
+          "size.Carrinho.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "size.Carrinho.Business/1.0.0": {
         "dependencies": {
           "size.Core": "1.0.0"
@@ -1369,6 +1405,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.Extensions.Configuration": "10.0.5",
           "Microsoft.Extensions.DependencyInjection": "10.0.5",
+          "size.Carrinho.Application": "1.0.0",
           "size.Carrinho.Business": "1.0.0",
           "size.Carrinho.Data": "1.0.0",
           "size.Core": "1.0.0"
@@ -1390,6 +1427,14 @@
         },
         "runtime": {
           "size.Carrinho.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "size.CatalogoRecebiveis.Application/1.0.0": {
+        "runtime": {
+          "size.CatalogoRecebiveis.Application.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1442,10 +1487,19 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.Extensions.Configuration": "10.0.5",
           "Microsoft.Extensions.DependencyInjection": "10.0.5",
+          "Newtonsoft.Json": "13.0.4",
           "Polly": "8.6.6"
         },
         "runtime": {
           "size.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "size.FichaCadastral.Application/1.0.0": {
+        "runtime": {
+          "size.FichaCadastral.Application.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1961,6 +2015,13 @@
       "path": "nettopologysuite.io.sqlserverbytes/2.1.0",
       "hashPath": "nettopologysuite.io.sqlserverbytes.2.1.0.nupkg.sha512"
     },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
     "Npgsql/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2178,6 +2239,16 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
+    "size.ApplicationService.ProcessamentoCheckout/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "size.Carrinho.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "size.Carrinho.Business/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2189,6 +2260,11 @@
       "sha512": ""
     },
     "size.Carrinho.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "size.CatalogoRecebiveis.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2209,6 +2285,11 @@
       "sha512": ""
     },
     "size.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "size.FichaCadastral.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

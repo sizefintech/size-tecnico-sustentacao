@@ -1,4 +1,5 @@
 ﻿using size.Core.DomainObjects;
+using size.Core.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace size.CatalogoRecebiveis.Business.AggregateRoots
         public decimal Valor { get; private set; }
         public decimal ValorLiquido { get; private set; }
         public DateTime DataVencimento { get; private set; }
-        public int Status { get; private set; }
+        public EDuplicataStatus Status { get; private set; }
         public bool NoCarrinho { get; private set; }
 
         public void MarcarComoNoCarrinho()
@@ -33,9 +34,15 @@ namespace size.CatalogoRecebiveis.Business.AggregateRoots
             ValorLiquido = valorLiquido;
         }
 
-        public void AtualizarStatus(int status)
+        public void AtualizarStatus(EDuplicataStatus status)
         {
             Status = status;
+        }
+
+        public void MarcarComoOperada()
+        {
+            Status = EDuplicataStatus.OPERADA;
+            NoCarrinho = false;
         }
     }
 }

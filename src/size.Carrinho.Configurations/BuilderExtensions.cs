@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using size.Carrinho.Application.Services;
 using size.Carrinho.Business.Interfaces.Repositories;
 using size.Carrinho.Data.Context;
 using size.Carrinho.Data.Repositories;
@@ -15,6 +16,7 @@ namespace size.Carrinho.Configurations
             services.AddSqlServerDb<CarrinhoContext>(config);
 
             services.AddScoped<ICarrinhoRepository, CarrinhoRepository>();
+            services.AddScoped<CheckoutService>();
         }
 
         internal static IServiceCollection AddSqlServerDb<TContext>(this IServiceCollection services, IConfiguration configuration) where TContext : DbContext

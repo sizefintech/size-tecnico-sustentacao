@@ -1,13 +1,98 @@
 [
   {
-    "ContainingType": "size_antecipacao.Controllers.TomadorController",
-    "Method": "Get",
-    "RelativePath": "Tomador",
+    "ContainingType": "size_antecipacao.Controllers.CarrinhoController",
+    "Method": "ObterCarrinho",
+    "RelativePath": "api/Carrinho/{tomadorId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [],
-    "EndpointName": "Teste"
+    "Parameters": [
+      {
+        "Name": "tomadorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "size_antecipacao.Controllers.CarrinhoController",
+    "Method": "Checkout",
+    "RelativePath": "api/Carrinho/checkout/{tomadorId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tomadorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "size_antecipacao.Controllers.CarrinhoController",
+    "Method": "InserirDuplicata",
+    "RelativePath": "api/Carrinho/inserir-duplicata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inserirDuplicata",
+        "Type": "size.Core.DTOs.InserirDuplicata",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "size_antecipacao.Controllers.CarrinhoController",
+    "Method": "RemoverDuplicata",
+    "RelativePath": "api/Carrinho/remover-duplicata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "removerDuplicata",
+        "Type": "size.Core.DTOs.RemoverDuplicata",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "size_antecipacao.Controllers.OperacaoController",
+    "Method": "ObterPorCodigo",
+    "RelativePath": "api/Operacao/codigo/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "size_antecipacao.Controllers.TomadorController",
+    "Method": "Get",
+    "RelativePath": "Tomador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

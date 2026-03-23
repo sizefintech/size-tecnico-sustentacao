@@ -1,11 +1,12 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\bin\Debug\net8.0\size.FichaCadastral.Application.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\bin\Debug\net8.0\size.FichaCadastral.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\bin\Debug\net8.0\size.FichaCadastral.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\refint\size.FichaCadastral.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastrak.Application\obj\Debug\net8.0\ref\size.FichaCadastral.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\bin\Debug\net8.0\size.FichaCadastral.Application.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\bin\Debug\net8.0\size.FichaCadastral.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\bin\Debug\net8.0\size.FichaCadastral.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\refint\size.FichaCadastral.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\size.FichaCadastral.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastrak.Application\obj\Debug\net8.0\ref\size.FichaCadastral.Application.dll

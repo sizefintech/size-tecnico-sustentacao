@@ -1,19 +1,20 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.runtimeconfig.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Ope.177387AE.Up2Date
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\refint\size.Operacao.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.genruntimeconfig.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Data\obj\Debug\net8.0\ref\size.Operacao.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.runtimeconfig.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Operacao.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Ope.177387AE.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\refint\size.Operacao.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\size.Operacao.Data.genruntimeconfig.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Data\obj\Debug\net8.0\ref\size.Operacao.Data.dll

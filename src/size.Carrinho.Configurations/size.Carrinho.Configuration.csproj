@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\size.Carrinho.Application\size.Carrinho.Application.csproj" />
     <ProjectReference Include="..\size.Carrinho.Business\size.Carrinho.Business.csproj" />
     <ProjectReference Include="..\size.Carrinho.Data\size.Carrinho.Data.csproj" />
     <ProjectReference Include="..\size.Core\size.Core.csproj" />

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using size.Carrinho.Business.DTOs;
+using size.Core.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +10,10 @@ namespace size.ApplicationService.ProcessamentoCheckout.Interfaces
 {
     public interface IProcessamentoCheckoutAppService
     {
-        void AdicionarNoCarrinho(string tomadorId, List<string> duplicatasIds);
-        void RemoverDoCarrinho(string tomadorId, List<string> duplicatasIds);
-        void LimparCarrinho(string tomadorId);
-        void Checkout(string tomadorId);
-
+        Task AdicionarNoCarrinho(string tomadorId, List<string> duplicatasIds);
+        Task RemoverDoCarrinho(string tomadorId, List<string> duplicatasIds);
+        Task LimparCarrinho(string tomadorId);
+        OperacaoDTO Checkout(string tomadorId);
+        Task<CarrinhoCompletoDTO> Obter(string tomadorId);
     }
 }

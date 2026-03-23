@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yCQegw43kv0=",
+  "dgSpecHash": "mhZhlJZ3x6U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
+  "projectFilePath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ygor.prates\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ygor.prates\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -56,6 +56,7 @@
     "C:\\Users\\ygor.prates\\.nuget\\packages\\nettopologysuite\\2.5.0\\nettopologysuite.2.5.0.nupkg.sha512",
     "C:\\Users\\ygor.prates\\.nuget\\packages\\nettopologysuite.io.spatialite\\2.0.0\\nettopologysuite.io.spatialite.2.0.0.nupkg.sha512",
     "C:\\Users\\ygor.prates\\.nuget\\packages\\nettopologysuite.io.sqlserverbytes\\2.1.0\\nettopologysuite.io.sqlserverbytes.2.1.0.nupkg.sha512",
+    "C:\\Users\\ygor.prates\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
     "C:\\Users\\ygor.prates\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512",
     "C:\\Users\\ygor.prates\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.0\\npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "C:\\Users\\ygor.prates\\.nuget\\packages\\polly\\8.6.6\\polly.8.6.6.nupkg.sha512",

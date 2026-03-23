@@ -20,5 +20,10 @@ namespace size.Carrinho.Business.Entities
             Id = id;
             CarrinhoId = carrinhoId;
         }
+
+        public void SetarCarrinho(string carrinhoId)
+        {
+            CarrinhoId = carrinhoId;
+        }
     }
 }

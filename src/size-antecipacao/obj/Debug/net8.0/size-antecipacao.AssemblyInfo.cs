@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("size-antecipacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d99feaf26b8a34045c7979dea39648e11b9d192")]
 [assembly: System.Reflection.AssemblyProductAttribute("size-antecipacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("size-antecipacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

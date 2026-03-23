@@ -1,19 +1,20 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.runtimeconfig.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Car.9353EE49.Up2Date
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\refint\size.Carrinho.Data.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.genruntimeconfig.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Carrinho.Data\obj\Debug\net8.0\ref\size.Carrinho.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.runtimeconfig.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Carrinho.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Car.9353EE49.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\refint\size.Carrinho.Data.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\size.Carrinho.Data.genruntimeconfig.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Carrinho.Data\obj\Debug\net8.0\ref\size.Carrinho.Data.dll

@@ -1,15 +1,16 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\bin\Debug\net8.0\size.Operacao.Business.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\bin\Debug\net8.0\size.Operacao.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\bin\Debug\net8.0\size.Operacao.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Ope.46A87E63.Up2Date
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\refint\size.Operacao.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.Operacao.Business\obj\Debug\net8.0\ref\size.Operacao.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\bin\Debug\net8.0\size.Operacao.Business.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\bin\Debug\net8.0\size.Operacao.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\bin\Debug\net8.0\size.Operacao.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Ope.46A87E63.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\refint\size.Operacao.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\size.Operacao.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.Operacao.Business\obj\Debug\net8.0\ref\size.Operacao.Business.dll

@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AggregateRoots\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\size.Core\size.Core.csproj" />
   </ItemGroup>
 

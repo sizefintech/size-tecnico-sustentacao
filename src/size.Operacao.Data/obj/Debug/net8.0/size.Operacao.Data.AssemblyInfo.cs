@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("size.Operacao.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6df6ccb7f03f1f46b18b35a3ef4a9dac40d60624")]
 [assembly: System.Reflection.AssemblyProductAttribute("size.Operacao.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("size.Operacao.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

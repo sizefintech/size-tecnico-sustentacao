@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj": {}
+    "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
+    "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Application\\size.Carrinho.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj",
-        "projectName": "size.Carrinho.Business",
-        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj",
+        "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Application\\size.Carrinho.Application.csproj",
+        "projectName": "size.Carrinho.Application",
+        "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Application\\size.Carrinho.Application.csproj",
         "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\obj\\",
+        "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
-                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj"
+              },
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj"
+              },
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj"
               }
             }
           }
@@ -74,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj": {
+    "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj",
-        "projectName": "size.Carrinho.Configuration",
-        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj",
+        "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj",
+        "projectName": "size.Carrinho.Business",
+        "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj",
         "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Configurations\\obj\\",
+        "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,14 +109,87 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
-                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj"
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj",
+        "projectName": "size.Carrinho.Configuration",
+        "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Configurations\\size.Carrinho.Configuration.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Application\\size.Carrinho.Application.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Application\\size.Carrinho.Application.csproj"
               },
-              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj": {
-                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj"
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj"
               },
-              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
-                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Data\\size.Carrinho.Data.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Data\\size.Carrinho.Data.csproj"
+              },
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj"
               }
             }
           }
@@ -164,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj": {
+    "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Data\\size.Carrinho.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj",
+        "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Data\\size.Carrinho.Data.csproj",
         "projectName": "size.Carrinho.Data",
-        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\size.Carrinho.Data.csproj",
+        "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Data\\size.Carrinho.Data.csproj",
         "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Data\\obj\\",
+        "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,11 +272,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
-                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Carrinho.Business\\size.Carrinho.Business.csproj"
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Carrinho.Business\\size.Carrinho.Business.csproj"
               },
-              "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
-                "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj"
               }
             }
           }
@@ -263,14 +342,84 @@
         }
       }
     },
-    "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
+    "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj",
-        "projectName": "size.Core",
-        "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj",
+        "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj",
+        "projectName": "size.CatalogoRecebiveis.Business",
+        "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Business\\size.CatalogoRecebiveis.Business.csproj",
         "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\obj\\",
+        "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.CatalogoRecebiveis.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ygor.prates\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj": {
+                "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj",
+        "projectName": "size.Core",
+        "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj",
+        "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
+        "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -329,6 +478,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
             },
             "Polly": {
               "target": "Package",

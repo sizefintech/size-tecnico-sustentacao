@@ -21,6 +21,49 @@ namespace size.Carrinho.Application.Services
             _notificador = notificador;
         }
 
+
+        public async Task IniciarProcessamento(string tomadorId)
+        {
+            try
+            {
+                var carrinho = await _carrinhoRepository.ObterPorAgregateId(tomadorId);
+                if (carrinho is null)
+                    return;
+
+                carrinho.IniciarProcessamento();
+                _carrinhoRepository.Atualizar(carrinho);
+                _carrinhoRepository.SalvarAlteracoes();
+                
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public async Task FinalizarProcessamento(string tomadorId)
+        {
+            try
+            {
+                var carrinho = await _carrinhoRepository.ObterPorAgregateId(tomadorId);
+                if (carrinho is null)
+                    return;
+
+                carrinho.FinalizarProcessamento();
+                _carrinhoRepository.Atualizar(carrinho);
+                _carrinhoRepository.SalvarAlteracoes();
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+
+
         public async Task<bool> AdicionarDuplicatas(string tomadorId, List<string> duplicatasIds)
         {
 
@@ -30,6 +73,7 @@ namespace size.Carrinho.Application.Services
             {
                 carrinho = new Business.AggregateRoots.Carrinho(tomadorId);
                 _carrinhoRepository.Adicionar(carrinho);
+                _carrinhoRepository.SalvarAlteracoes();
             }
 
             MarcarComoNoCarrinho(duplicatasIds);
@@ -68,52 +112,9 @@ namespace size.Carrinho.Application.Services
             return !PossuiNotificacoes();
         }
 
-
-
-        public async Task<bool> Checkout(string tomadorId)
+        public async Task<Business.AggregateRoots.Carrinho> ObterCarrinho(string tomadorId)
         {
-            var carrinho = ObterCarrinho(tomadorId);
-
-           if(carrinho is null || PossuiNotificacoes())
-                return false;
-
-            IniciarProcessamentoCarrinho(carrinho);
-
-            
-
-            var duplicatasIds = carrinho.Duplicatas.Select(d => d.Id).ToList();
-
-            foreach (var duplicataId in duplicatasIds)
-            {
-                var duplicata = _duplicataRepository.ObterPorId(duplicataId);
-
-                if (duplicata == null)
-                {
-                    _notificador.Notificar($"Duplicata {duplicataId} não encontrada");
-                    continue;
-                }
-
-                var taxaAntecipacao = CalcularTaxaAntecipacao(duplicata.DataVencimento);
-                var valorLiquido = duplicata.Valor * (1 - taxaAntecipacao);
-
-                _duplicataRepository.Atualizar(duplicata);
-            }
-
-            _duplicataRepository.SalvarAlteracoes();
-
-            return !_notificador.TemNotificacao();
-        }
-
-        private void IniciarProcessamentoCarrinho(Business.AggregateRoots.Carrinho carrinho)
-        {
-            carrinho.IniciarProcessamento();
-            _carrinhoRepository.Atualizar(carrinho);
-            _carrinhoRepository.SalvarAlteracoes();
-        }
-
-        private Business.AggregateRoots.Carrinho ObterCarrinho(string tomadorId)
-        {
-            var carrinho = _carrinhoRepository.ObterCarrinhoComDuplicatas(tomadorId).Result;
+            var carrinho = await _carrinhoRepository.ObterPorAgregateId(tomadorId);
 
             if (carrinho == null)
             {
@@ -138,11 +139,27 @@ namespace size.Carrinho.Application.Services
 
 
 
-        #region MyRegion
+
+        #region Métodos Privados
+
+        private void FinalizarProcessamentoCarrinho(Business.AggregateRoots.Carrinho carrinho)
+        {
+            carrinho.FinalizarProcessamento();
+            _carrinhoRepository.Atualizar(carrinho);
+            _carrinhoRepository.SalvarAlteracoes();
+        }
+
+        private void IniciarProcessamentoCarrinho(Business.AggregateRoots.Carrinho carrinho)
+        {
+            carrinho.IniciarProcessamento();
+            _carrinhoRepository.Atualizar(carrinho);
+            _carrinhoRepository.SalvarAlteracoes();
+        }
 
         private void InserirDuplicatasNoCarrinho(List<string> duplicatasIds, Business.AggregateRoots.Carrinho carrinho)
         {
             carrinho.InserirDuplicatas(duplicatasIds);
+            _carrinhoRepository.Atualizar(carrinho);
             _carrinhoRepository.SalvarAlteracoes();
         }
 

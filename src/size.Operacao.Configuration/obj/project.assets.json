@@ -977,6 +977,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Npgsql/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -1544,6 +1557,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0",
           "Microsoft.Extensions.Configuration": "10.0.5",
           "Microsoft.Extensions.DependencyInjection": "10.0.5",
+          "Newtonsoft.Json": "13.0.4",
           "Polly": "8.6.6"
         },
         "compile": {
@@ -2906,6 +2920,36 @@
         "nettopologysuite.io.sqlserverbytes.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.4": {
+      "sha512": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Npgsql/8.0.0": {
       "sha512": "Qiz74U+O7Mv4knrsXgKVYGJjgwoziK+aMFZqz7PtKR3vyGIhZA0tnW6HoUnL3X+YqtmVuhmoKkN8LDWEHMxPbw==",
       "type": "package",
@@ -4029,11 +4073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
+      "projectUniqueName": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
       "projectName": "size.Operacao.Configuration",
-      "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
+      "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Configuration\\size.Operacao.Configuration.csproj",
       "packagesPath": "C:\\Users\\ygor.prates\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Configuration\\obj\\",
+      "outputPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4055,17 +4099,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj": {
-              "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Core\\size.Core.csproj"
+            "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj": {
+              "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Core\\size.Core.csproj"
             },
-            "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\size.Operacao.Application.csproj": {
-              "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Application\\size.Operacao.Application.csproj"
+            "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Application\\size.Operacao.Application.csproj": {
+              "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Application\\size.Operacao.Application.csproj"
             },
-            "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj": {
-              "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Business\\size.Operacao.Business.csproj"
+            "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Business\\size.Operacao.Business.csproj": {
+              "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Business\\size.Operacao.Business.csproj"
             },
-            "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\size.Operacao.Data.csproj": {
-              "projectPath": "C:\\Users\\ygor.prates\\Desktop\\size-antecipacao\\size.Operacao.Data\\size.Operacao.Data.csproj"
+            "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Data\\size.Operacao.Data.csproj": {
+              "projectPath": "C:\\size\\TESTE TÉCNICO\\size-tecnico-sustentacao\\src\\size.Operacao.Data\\size.Operacao.Data.csproj"
             }
           }
         }

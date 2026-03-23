@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\size.ApplicationService.ProcessamentoCheckout\size.ApplicationService.ProcessamentoCheckout.csproj" />
     <ProjectReference Include="..\size.Carrinho.Configurations\size.Carrinho.Configuration.csproj" />
     <ProjectReference Include="..\size.CatalogoRecebiveis.Configurations\size.CatalogoRecebiveis.Configurations.csproj" />
     <ProjectReference Include="..\size.FichaCadastral.Configurations\size.FichaCadastral.Configurations.csproj" />

@@ -1,25 +1,28 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.FichaCadastral.Application.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.FichaCadastral.Application.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.App.818B7117.Up2Date
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\refint\size.ApplicationService.ProcessamentoCheckout.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\ref\size.ApplicationService.ProcessamentoCheckout.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.FichaCadastral.Application.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Operacao.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.FichaCadastral.Application.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Operacao.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Carrinho.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.CatalogoRecebiveis.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.App.818B7117.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\refint\size.ApplicationService.ProcessamentoCheckout.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\size.ApplicationService.ProcessamentoCheckout.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.ApplicationService.ProcessamentoCheckout\obj\Debug\net8.0\ref\size.ApplicationService.ProcessamentoCheckout.dll

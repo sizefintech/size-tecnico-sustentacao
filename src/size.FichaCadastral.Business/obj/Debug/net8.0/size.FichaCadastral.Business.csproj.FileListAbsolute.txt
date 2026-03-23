@@ -1,15 +1,16 @@
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\bin\Debug\net8.0\size.FichaCadastral.Business.deps.json
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\bin\Debug\net8.0\size.FichaCadastral.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\bin\Debug\net8.0\size.FichaCadastral.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\bin\Debug\net8.0\size.Core.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\bin\Debug\net8.0\size.Core.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.csproj.AssemblyReference.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.AssemblyInfoInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.AssemblyInfo.cs
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.csproj.CoreCompileInputs.cache
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.Fic.1FA4E184.Up2Date
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\refint\size.FichaCadastral.Business.dll
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.pdb
-C:\Users\ygor.prates\Desktop\size-antecipacao\size.FichaCadastral.Business\obj\Debug\net8.0\ref\size.FichaCadastral.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\bin\Debug\net8.0\size.FichaCadastral.Business.deps.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\bin\Debug\net8.0\size.FichaCadastral.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\bin\Debug\net8.0\size.FichaCadastral.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\bin\Debug\net8.0\size.Core.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\bin\Debug\net8.0\size.Core.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.csproj.AssemblyReference.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.AssemblyInfoInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.AssemblyInfo.cs
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.csproj.CoreCompileInputs.cache
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.sourcelink.json
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.Fic.1FA4E184.Up2Date
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\refint\size.FichaCadastral.Business.dll
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\size.FichaCadastral.Business.pdb
+C:\size\TESTE TÉCNICO\size-tecnico-sustentacao\src\size.FichaCadastral.Business\obj\Debug\net8.0\ref\size.FichaCadastral.Business.dll
