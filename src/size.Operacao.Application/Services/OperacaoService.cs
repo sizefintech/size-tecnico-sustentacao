@@ -23,8 +23,8 @@ namespace size.Operacao.Application.Services
         public async Task<Business.AggregateRoots.Operacao> ObterOperacaoPorCodigo(string codigo)
         {
             return await _operacaoRepository.ObterPorCodigo(codigo);
-        }
-
+        }       
+       
         public async Task<Business.AggregateRoots.Operacao> ObterPorId(string id)
         {
             return await _operacaoRepository.ObterPorId(id);

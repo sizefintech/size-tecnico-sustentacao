@@ -1,227 +1,50 @@
 ﻿# 🏦 Size - API de Antecipação de Recebíveis
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=sizefintech/size-tecnico-sustentacao)
+
 API desenvolvida em .NET 8 para gerenciamento de antecipação de recebíveis, permitindo que empresas antecipem o recebimento de duplicatas através de um fluxo completo de carrinho de compras e checkout.
 
 ## 📋 Índice
 
-- [O que é Antecipação de Recebíveis?](#o-que-é-antecipação-de-recebíveis)
-- [Arquitetura do Projeto](#arquitetura-do-projeto)
-- [Fluxo da API](#fluxo-da-api)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pré-requisitos](#pré-requisitos)
-- [Configuração do Ambiente](#configuração-do-ambiente)
-- [Como Executar](#como-executar)
-- [Endpoints da API](#endpoints-da-api)
-- [Scripts de Banco de Dados](#scripts-de-banco-de-dados)
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Início Rápido](#-início-rápido)
+- [Arquitetura](#-arquitetura)
+- [Tecnologias](#-tecnologias)
+- [Endpoints](#-endpoints)
 
 > 🚀 **Quer começar rápido?** Veja o [Guia de Início Rápido (5 minutos)](QUICKSTART.md)  
 ---
 
-## 💰 O que é Antecipação de Recebíveis?
+## 💡 Sobre o Projeto
 
-A **Antecipação de Recebíveis** é uma operação financeira que permite que empresas recebam antecipadamente valores referentes a duplicatas (títulos de crédito) que só venceriam no futuro. 
+A **Antecipação de Recebíveis** permite que empresas recebam antecipadamente valores de duplicatas futuras. Um desconto é aplicado sobre o valor total, e a empresa recebe o valor líquido de forma imediata.
 
-### Como funciona:
+**Exemplo:**
+- Duplicata: R$ 10.000,00 (vence em 30 dias)
+- Taxa: 3%
+- Valor recebido: R$ 9.700,00 (hoje)
 
-1. **Empresa possui recebíveis**: Uma empresa vendeu produtos/serviços e possui duplicatas a receber no futuro
-2. **Necessidade de capital**: A empresa precisa de capital de giro imediato
-3. **Antecipação**: A empresa solicita a antecipação desses recebíveis através de uma instituição financeira
-4. **Desconto aplicado**: É aplicado um desconto (taxa) sobre o valor total das duplicatas
-5. **Recebimento imediato**: A empresa recebe o valor líquido (valor original - desconto) de forma antecipada
+### Fluxo de Uso
 
 ### Exemplo Prático:
 
 ```
-Duplicata Original:
-- Valor: R$ 10.000,00
-- Vencimento: 30 dias
-- Taxa de antecipação: 3%
-
-Valor Líquido Recebido:
-- Desconto: R$ 300,00 (3% de R$ 10.000)
-- Valor a receber: R$ 9.700,00 (imediatamente)
+Consultar Duplicatas → Adicionar ao Carrinho → Checkout → Operação Criada
 ```
 
 ---
 
-## 🏗️ Arquitetura do Projeto
+## 🚀 Início Rápido
 
-O projeto segue os princípios de **Domain-Driven Design (DDD)** e **Clean Architecture**, organizado em camadas:
+### Pré-requisitos
 
-```
-size-tecnico-sustentacao/
-│
-├── src/
-│   ├── size-antecipacao/                          # 🚀 API Principal
-│   │   ├── Controllers/                           # Endpoints REST
-│   │   ├── Configurations/                        # Configurações e DI
-│   │   └── Program.cs                             # Entry point
-│   │
-│   ├── size.Core/                                 # 🧩 Núcleo Compartilhado
-│   │   ├── Communication/                         # Notificações e respostas
-│   │   ├── Data/                                  # Contexto base
-│   │   ├── DomainObjects/                         # Entidades base
-│   │   └── DTOs/                                  # Data Transfer Objects
-│   │
-│   ├── size.FichaCadastral.*/                    # 📋 Domínio: Ficha Cadastral
-│   │   ├── Application/                           # Serviços de aplicação
-│   │   ├── Business/                              # Regras de negócio (Tomadores)
-│   │   ├── Data/                                  # Acesso a dados
-│   │   └── Configurations/                        # Injeção de dependências
-│   │
-│   ├── size.CatalogoRecebiveis.*/                # 💵 Domínio: Catálogo de Recebíveis
-│   │   ├── Application/                           # Serviços de aplicação
-│   │   ├── Business/                              # Regras de negócio (Duplicatas)
-│   │   ├── Data/                                  # Acesso a dados
-│   │   └── Configurations/                        # Injeção de dependências
-│   │
-│   ├── size.Carrinho.*/                          # 🛒 Domínio: Carrinho de Compras
-│   │   ├── Application/                           # Serviços de aplicação
-│   │   ├── Business/                              # Regras de negócio (Carrinho)
-│   │   ├── Data/                                  # Acesso a dados
-│   │   └── Configurations/                        # Injeção de dependências
-│   │
-│   ├── size.Operacao.*/                          # ✅ Domínio: Operações
-│   │   ├── Application/                           # Serviços de aplicação
-│   │   ├── Business/                              # Regras de negócio (Operações)
-│   │   ├── Data/                                  # Acesso a dados
-│   │   └── Configuration/                         # Injeção de dependências
-│   │
-│   └── size.ApplicationService.ProcessamentoCheckout/  # 🔄 Serviço de Checkout
-│       └── Orchestração do processo de checkout
-│
-└── README.md
-```
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [SQL Server](https://www.microsoft.com/sql-server/sql-server-downloads) ou LocalDB
 
-### Domínios da Aplicação:
-
-- **FichaCadastral**: Gerencia os tomadores (empresas/clientes)
-- **CatalogoRecebiveis**: Gerencia as duplicatas disponíveis para antecipação
-- **Carrinho**: Gerencia a seleção de duplicatas para antecipação
-- **Operacao**: Registra e gerencia as operações de antecipação realizadas
-
----
-
-## 🔄 Fluxo da API
-
-### Fluxo Completo de Antecipação:
-
-```mermaid
-graph TD
-    A[Cliente/Tomador] -->|1. Consulta duplicatas disponíveis| B[Catálogo de Recebíveis]
-    B -->|2. Seleciona duplicatas| C[Adiciona ao Carrinho]
-    C -->|3. Revisa itens| D[Carrinho]
-    D -->|4. Confirma antecipação| E[Checkout]
-    E -->|5. Processa operação| F[Operação Criada]
-    F -->|6. Atualiza status| G[Duplicatas Antecipadas]
-    G -->|7. Retorna confirmação| A
-```
-
-### Detalhamento dos Passos:
-
-#### 1️⃣ **Consulta de Duplicatas**
-O tomador visualiza suas duplicatas disponíveis para antecipação no catálogo de recebíveis.
-
-#### 2️⃣ **Adição ao Carrinho**
-```http
-POST /api/carrinho/inserir-duplicata
-{
-  "tomadorId": "guid-do-tomador",
-  "duplicatasIds": ["guid-duplicata-1", "guid-duplicata-2"]
-}
-```
-
-#### 3️⃣ **Visualização do Carrinho**
-```http
-GET /api/carrinho/{tomadorId}
-```
-
-#### 4️⃣ **Remoção de Itens (Opcional)**
-```http
-POST /api/carrinho/remover-duplicata
-{
-  "tomadorId": "guid-do-tomador",
-  "duplicatasIds": ["guid-duplicata-1"]
-}
-```
-
-#### 5️⃣ **Checkout (Confirmar Antecipação)**
-```http
-POST /api/carrinho/checkout/{tomadorId}
-```
-
-#### 6️⃣ **Consulta da Operação**
-```http
-GET /api/operacao/codigo/{codigo-operacao}
-```
-
-### Diagrama de Estados:
-
-```
-Duplicata States:
-┌──────────────┐
-│  Disponível  │ ──────────┐
-└──────────────┘           │
-                           ▼
-                    ┌──────────────┐
-                    │ No Carrinho  │
-                    └──────────────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │  Antecipada  │
-                    └────────F──────┘
-```
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **.NET 8**: Framework principal
-- **ASP.NET Core**: Web API
-- **Entity Framework Core 9.0**: ORM para acesso a dados
-- **SQL Server**: Banco de dados relacional
-- **Swagger/OpenAPI**: Documentação da API
-- **Polly**: Resiliência e retry policies
-- **User Secrets**: Gerenciamento seguro de configurações sensíveis
-
-### Padrões e Práticas:
-
-- ✅ **Domain-Driven Design (DDD)**
-- ✅ **SOLID Principles**
-- ✅ **Repository Pattern**
-- ✅ **Dependency Injection**
-- ✅ **Entity Framework Migrations**
-- ✅ **Clean Architecture**
-
----
-
-## 📦 Pré-requisitos
-
-Antes de começar, certifique-se de ter instalado:
-
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (versão 8.0 ou superior)
-- [SQL Server](https://www.microsoft.com/sql-server/sql-server-downloads) (2019 ou superior) ou SQL Server LocalDB
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) ou [VS Code](https://code.visualstudio.com/) (opcional)
-- [Git](https://git-scm.com/)
-
-### Verificar instalações:
+### Configuração
 
 ```bash
-# Verificar versão do .NET
-dotnet --version
-
-# Verificar SQL Server
-sqlcmd -S localhost -Q "SELECT @@VERSION"
-```
-
----
-
-## ⚙️ Configuração do Ambiente
-
-### 1. Clonar o Repositório
-
-```bash
+# 1. Clonar o repositório
 git clone https://github.com/sizefintech/size-tecnico-sustentacao.git
 cd size-tecnico-sustentacao
 ```
@@ -232,8 +55,7 @@ A aplicação utiliza **User Secrets** para armazenar a connection string de for
 
 #### Opção 1: Via Command Line
 
-```bash
-# Navegar até o projeto da API
+# 2. Configurar connection string (User Secrets)
 cd src/size-antecipacao
 
 # Configurar a connection string
@@ -256,17 +78,13 @@ dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Server=localhost;
 
 #### Opção 3: Com Autenticação SQL Server
 
-```json
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=SizeAntecipacao;User Id=seu_usuario;Password=sua_senha;TrustServerCertificate=True;"
-  }
-}
+# 3. Executar a aplicação (migrations são aplicadas automaticamente)
+dotnet run
 ```
 
-### 3. Criar o Banco de Dados
+A API estará disponível em `https://localhost:7XXX/swagger`
 
-As migrations serão aplicadas automaticamente quando a aplicação iniciar, mas você pode aplicá-las manualmente:
+### Aplicar Migrations Manualmente (Opcional)
 
 ```bash
 # Navegar até a raiz da solução
@@ -281,77 +99,58 @@ dotnet ef database update --project ../size.Operacao.Data
 
 ---
 
-## 🚀 Como Executar
+## 🏗 Arquitetura
 
-### Método 1: Visual Studio
+O projeto segue **Domain-Driven Design (DDD)** e **Clean Architecture**, organizado em 4 domínios principais:
 
-1. Abra o arquivo `size-tecnico-sustentacao.sln`
-2. Defina `size-antecipacao` como projeto de inicialização
-3. Pressione `F5` ou clique em **Run**
+| Domínio | Responsabilidade |
+|---------|-----------------|
+| **FichaCadastral** | Gerencia os tomadores (empresas/clientes) |
+| **CatalogoRecebiveis** | Gerencia as duplicatas disponíveis |
+| **Carrinho** | Gerencia a seleção de duplicatas |
+| **Operacao** | Registra as operações de antecipação |
 
-### Método 2: Command Line
-
-```bash
-# Navegar até o projeto
-cd src/size-antecipacao
-
-# Restaurar dependências
-dotnet restore
+### Estrutura de Pastas
 
 # Executar a aplicação
 dotnet run
 ```
-
-### Método 3: Watch Mode (Desenvolvimento)
-
-```bash
-cd src/size-antecipacao
-dotnet watch run
+src/
+├── size-antecipacao/                    # API Principal
+├── size.Core/                           # Núcleo Compartilhado
+├── size.FichaCadastral.*/              # Domínio: Ficha Cadastral
+├── size.CatalogoRecebiveis.*/          # Domínio: Catálogo de Recebíveis
+├── size.Carrinho.*/                    # Domínio: Carrinho de Compras
+├── size.Operacao.*/                    # Domínio: Operações
+└── size.ApplicationService.ProcessamentoCheckout/  # Serviço de Checkout
 ```
 
-### Acessar a Aplicação:
+---
 
-Após iniciar, a API estará disponível em:
+## 🛠 Tecnologias
 
-- **HTTPS**: `https://localhost:7XXX` (porta pode variar)
-- **HTTP**: `http://localhost:5XXX`
-- **Swagger UI**: `https://localhost:7XXX/swagger`
+- **.NET 8** + **ASP.NET Core**
+- **Entity Framework Core 9.0**
+- **SQL Server**
+- **Swagger/OpenAPI**
+- **Polly** (Resiliência)
 
-## 📚 Endpoints da API
+**Padrões:** DDD, SOLID, Repository Pattern, Dependency Injection, Clean Architecture
 
-### 🏢 Tomador (Ficha Cadastral)
+---
 
-#### Listar Tomadores (Teste)
-```http
-GET /Tomador
-```
+## 📚 Endpoints
 
 ### 🛒 Carrinho
 
-#### Adicionar Duplicatas ao Carrinho
+#### Adicionar Duplicatas
 ```http
 POST /api/carrinho/inserir-duplicata
 Content-Type: application/json
 
 {
-  "tomadorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "duplicatasIds": [
-    "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "4fb96f75-6828-5673-c4gd-3d074g77bgb7"
-  ]
-}
-```
-
-#### Remover Duplicatas do Carrinho
-```http
-POST /api/carrinho/remover-duplicata
-Content-Type: application/json
-
-{
-  "tomadorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "duplicatasIds": [
-    "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-  ]
+  "tomadorId": "guid-do-tomador",
+  "duplicatasIds": ["guid-duplicata-1", "guid-duplicata-2"]
 }
 ```
 
@@ -360,22 +159,25 @@ Content-Type: application/json
 GET /api/carrinho/{tomadorId}
 ```
 
-**Resposta:**
+Resposta:
 ```json
 {
-  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "tomadorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "duplicatas": [
-    {
-      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-      "numero": "DUP-001",
-      "valor": 10000.00,
-      "valorLiquido": 9700.00,
-      "dataVencimento": "2024-04-15T00:00:00"
-    }
-  ],
+  "id": "guid",
+  "tomadorId": "guid",
+  "duplicatas": [...],
   "valorTotal": 10000.00,
   "valorLiquidoTotal": 9700.00
+}
+```
+
+#### Remover Duplicatas
+```http
+POST /api/carrinho/remover-duplicata
+Content-Type: application/json
+
+{
+  "tomadorId": "guid-do-tomador",
+  "duplicatasIds": ["guid-duplicata-1"]
 }
 ```
 
@@ -384,12 +186,12 @@ GET /api/carrinho/{tomadorId}
 POST /api/carrinho/checkout/{tomadorId}
 ```
 
-**Resposta:**
+Resposta:
 ```json
 {
   "sucesso": true,
   "dados": {
-    "operacaoId": "4fb96f75-6828-5673-c4gd-3d074g77bgb7",
+    "operacaoId": "guid",
     "codigo": "OP-20240315-001",
     "valorTotal": 10000.00,
     "valorLiquido": 9700.00,
@@ -400,56 +202,47 @@ POST /api/carrinho/checkout/{tomadorId}
 
 ### ✅ Operação
 
-#### Consultar Operação por Código
+#### Consultar por Código
 ```http
 GET /api/operacao/codigo/{codigo}
 ```
 
-**Exemplo:**
-```http
-GET /api/operacao/codigo/OP-20240315-001
-```
+Exemplo: `GET /api/operacao/codigo/OP-20240315-001`
 
-**Resposta:**
+Resposta:
 ```json
 {
-  "id": "4fb96f75-6828-5673-c4gd-3d074g77bgb7",
+  "id": "guid",
   "codigo": "OP-20240315-001",
-  "tomadorId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "tomadorId": "guid",
   "valorTotal": 10000.00,
   "valorLiquido": 9700.00,
   "status": "Aprovada",
   "criadoEm": "2024-03-15T10:30:00",
-  "duplicatas": [
-    {
-      "numero": "DUP-001",
-      "valor": 5000.00,
-      "valorLiquido": 4850.00
-    },
-    {
-      "numero": "DUP-002",
-      "valor": 5000.00,
-      "valorLiquido": 4850.00
-    }
-  ]
+  "duplicatas": [...]
 }
+```
+
+### 🏢 Tomador
+
+#### Listar Tomadores
+```http
+GET /Tomador
 ```
 
 ---
 
-## 🗄️ Scripts de Banco de Dados
+## 🗄️ Banco de Dados
 
-### Estrutura dos Schemas
+### Schemas
 
-A aplicação utiliza 4 schemas no SQL Server:
+- **FichaCadastral**: `Tomadores`
+- **CatalogoRecebiveis**: `Duplicatas`
+- **Carrinho**: `Carrinhos`, `CarrinhoItem`
+- **Operacao**: `Operacoes`, `OperacaoDuplicata`
 
-- **FichaCadastral**: Tabela `Tomadores`
-- **CatalogoRecebiveis**: Tabela `Duplicatas`
-- **Carrinho**: Tabela `Carrinhos` e `CarrinhoItem`
-- **Operacao**: Tabela `Operacoes` e `OperacaoDuplicata`
+Scripts SQL para popular o banco estão disponíveis em `script.sql`
 
-### 📁 Scripts Disponíveis
-
-O projeto inclui scripts SQL para popular o banco de dados em script.sql
+---
 
 **Desenvolvido com ❤️ usando .NET 8**

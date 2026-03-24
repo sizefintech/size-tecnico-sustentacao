@@ -4,6 +4,7 @@ using size.CatalogoRecebiveis.Data.Context;
 using size.fichaCadastral.Data.Context;
 using size.Operacao.Data.Context;
 using size_antecipacao.Configurations;
+using size_antecipacao.Infrastructure;
 
 IConfiguration configuration = null;
 try
@@ -11,11 +12,20 @@ try
     var builder = WebApplication.CreateBuilder(args);       
     configuration = builder.Configuration;
 
+    // Configurar Kestrel para aceitar requisições de qualquer origem (necessário para Codespaces)
+    builder.WebHost.ConfigureKestrel(serverOptions =>
+    {
+        serverOptions.ListenAnyIP(5075);
+    });
+
     builder.Services.AdicionarServicos(configuration);
     
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+    
+    // Registrar o DatabaseSeeder
+    builder.Services.AddScoped<DatabaseSeeder>();
     
     var app = builder.Build();
 
@@ -71,15 +81,34 @@ try
             logger.LogError(ex, "Ocorreu um erro ao aplicar as migrations do Operacao.");
             throw;
         }
+
+        // Executar seed do banco após migrations
+        try
+        {
+            logger.LogInformation("?? Iniciando seed do banco de dados...");
+            var seeder = services.GetRequiredService<DatabaseSeeder>();
+            seeder.SeedDatabaseAsync().GetAwaiter().GetResult();
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, "? Erro ao executar seed do banco de dados.");
+            // Não propaga exceção para não interromper a aplicação
+        }
     }
 
+    // Sempre usar Swagger em desenvolvimento (incluindo Codespaces)
     if (app.Environment.IsDevelopment())
     {
         app.UseSwagger();
         app.UseSwaggerUI();
     }
 
-    app.UseHttpsRedirection();
+    // Redirecionar raiz para Swagger (útil para Codespaces)
+    app.MapGet("/", () => Results.Redirect("/swagger"));
+
+    // Não usar HTTPS redirect em desenvolvimento (Codespaces usa proxy próprio)
+    // app.UseHttpsRedirection();
+    
     app.UseAuthorization();
     app.MapControllers();
 

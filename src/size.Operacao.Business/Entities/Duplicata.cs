@@ -29,7 +29,7 @@ namespace size.Operacao.Business.Entities
             Valor = valor;
         }
 
-
+        
 
         public int Prazo()
         {
