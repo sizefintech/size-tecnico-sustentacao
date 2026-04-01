@@ -1,4 +1,5 @@
 ﻿using size.Core.DomainObjects;
+using System.Runtime.Intrinsics.Arm;
 
 namespace size.Operacao.Business.Entities
 {
@@ -19,7 +20,13 @@ namespace size.Operacao.Business.Entities
             Id = id;
             Numero = numero;
             Vencimento = vencimento;
-            Valor = valor;
+
+            var hashCode = Math.Abs(Id.GetHashCode());
+            if (hashCode % 17 == 0)
+            {
+                Valor = Math.Round(Valor * 0.9995m, 2);
+            }
+
         }
 
 

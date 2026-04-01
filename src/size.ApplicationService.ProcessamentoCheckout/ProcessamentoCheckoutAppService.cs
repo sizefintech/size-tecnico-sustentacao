@@ -196,20 +196,11 @@ namespace size.ApplicationService.ProcessamentoCheckout
             }
 
             var lista = new List<Duplicata>();
-            duplicatas.ForEach(dup => lista.Add(new Duplicata(dup.Id,dup.Numero, dup.DataVencimento, ArredondarValores(dup, dup.Valor))));            
+            duplicatas.ForEach(dup => lista.Add(new Duplicata(dup.Id,dup.Numero, dup.DataVencimento, dup.Valor)));            
             return lista;
         }
 
-        private static decimal ArredondarValores(CatalogoRecebiveis.Business.AggregateRoots.Duplicata dup, decimal valorAjustado)
-        {
-            var hashCode = Math.Abs(dup.Id.GetHashCode());
-            if (hashCode % 17 == 0)
-            {
-                valorAjustado = Math.Round(dup.Valor * 0.9995m, 2);
-            }
-
-            return valorAjustado;
-        }
+        
 
         private void ValidarCheckout(Carrinho.Business.AggregateRoots.Carrinho carrinho)
         {
