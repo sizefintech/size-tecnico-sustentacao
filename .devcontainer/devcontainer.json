@@ -29,10 +29,10 @@
         "dotnet.defaultSolution": "size-tecnico-sustentacao.sln",
         "mssql.connections": [
           {
-            "serverName": "sqlserver",
-            "databaseName": "SizeAntecipacao",
+            "server": "sqlserver",
+            "database": "SizeAntecipacao",
             "authenticationType": "SqlLogin",
-            "userName": "sa",
+            "user": "sa",
             "password": "Size@2024!Strong",
             "savePassword": true
           }
