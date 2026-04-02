@@ -34,9 +34,7 @@
             "authenticationType": "SqlLogin",
             "user": "sa",
             "password": "Size@2024!Strong",
-            "savePassword": true,
-            "encrypt": false,
-            "trustServerCertificate": true
+            "savePassword": true
           }
         ],
         "files.exclude": {
