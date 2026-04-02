@@ -1,0 +1,19 @@
+{
+  "dotnet.defaultSolution": "size-tecnico-sustentacao.sln",
+  "mssql.connections": [
+    {
+      "server": "sqlserver",
+      "database": "SizeAntecipacao",
+      "authenticationType": "SqlLogin",
+      "user": "sa",
+      "password": "Size@2024!Strong",
+      "savePassword": true,
+      "encrypt": "Optional",
+      "trustServerCertificate": true
+    }
+  ],
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  }
+}
