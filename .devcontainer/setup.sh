@@ -3,41 +3,53 @@ set -e
 
 echo "Iniciando configuracao do ambiente Size Antecipacao..."
 
-# Aguardar SQL Server estar pronto com loop de retry
-echo "Aguardando SQL Server inicializar..."
-MAX_RETRIES=30
-RETRY=0
-SQLCMD_BIN=""
+# ----------------------------------------------------------------
+# 1. Instalar sqlcmd se nao estiver disponivel
+# ----------------------------------------------------------------
+if ! command -v sqlcmd &>/dev/null; then
+    echo "Instalando sqlcmd..."
+    curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-prod.gpg
+    curl -fsSL https://packages.microsoft.com/config/ubuntu/22.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list > /dev/null
+    sudo apt-get update -qq
+    sudo ACCEPT_EULA=Y apt-get install -y -qq mssql-tools18 unixodbc-dev
+fi
 
-# Detectar caminho do sqlcmd (versao 18 ou legado)
+export PATH="$PATH:/opt/mssql-tools18/bin:/opt/mssql-tools/bin"
+
+# Detectar binario e flags corretos
 if [ -f "/opt/mssql-tools18/bin/sqlcmd" ]; then
     SQLCMD_BIN="/opt/mssql-tools18/bin/sqlcmd"
     SQLCMD_EXTRA_FLAGS="-C -N"
-elif [ -f "/opt/mssql-tools/bin/sqlcmd" ]; then
+else
     SQLCMD_BIN="/opt/mssql-tools/bin/sqlcmd"
     SQLCMD_EXTRA_FLAGS=""
 fi
 
-if [ -n "$SQLCMD_BIN" ]; then
-    until $SQLCMD_BIN -S sqlserver -U sa -P "Size@2024!Strong" -Q "SELECT 1" $SQLCMD_EXTRA_FLAGS -l 2 > /dev/null 2>&1; do
-        RETRY=$((RETRY + 1))
-        if [ $RETRY -ge $MAX_RETRIES ]; then
-            echo "ERRO: SQL Server nao ficou pronto apos $MAX_RETRIES tentativas."
-            exit 1
-        fi
-        echo "SQL Server ainda nao esta pronto (tentativa $RETRY/$MAX_RETRIES)... aguardando 5s"
-        sleep 5
-    done
-else
-    echo "sqlcmd nao encontrado, aguardando 60s para SQL Server subir..."
-    sleep 60
-fi
-
+# ----------------------------------------------------------------
+# 2. Aguardar SQL Server estar pronto (healthcheck ja garantiu,
+#    mas fazemos retry extra por seguranca)
+# ----------------------------------------------------------------
+echo "Aguardando SQL Server aceitar conexoes..."
+MAX_RETRIES=20
+RETRY=0
+until $SQLCMD_BIN -S sqlserver -U sa -P "Size@2024!Strong" -Q "SELECT 1" $SQLCMD_EXTRA_FLAGS -l 3 > /dev/null 2>&1; do
+    RETRY=$((RETRY + 1))
+    if [ $RETRY -ge $MAX_RETRIES ]; then
+        echo "ERRO: SQL Server nao ficou pronto apos $MAX_RETRIES tentativas."
+        exit 1
+    fi
+    echo "  aguardando... ($RETRY/$MAX_RETRIES)"
+    sleep 5
+done
 echo "SQL Server esta online!"
 
-# Criar banco imediatamente para a extensão mssql conseguir conectar
+# ----------------------------------------------------------------
+# 3. Criar banco antecipadamente (evita erro 4060 na extensao mssql)
+# ----------------------------------------------------------------
 echo "Criando banco SizeAntecipacao..."
-$SQLCMD_BIN -S sqlserver -U sa -P "Size@2024!Strong" -Q "IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'SizeAntecipacao') CREATE DATABASE SizeAntecipacao" $SQLCMD_EXTRA_FLAGS
+$SQLCMD_BIN -S sqlserver -U sa -P "Size@2024!Strong" \
+    -Q "IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'SizeAntecipacao') CREATE DATABASE SizeAntecipacao" \
+    $SQLCMD_EXTRA_FLAGS
 echo "Banco SizeAntecipacao pronto!"
 
 # Navegar para o workspace

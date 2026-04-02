@@ -3,7 +3,6 @@
   "mssql.connections": [
     {
       "server": "sqlserver",
-      "database": "SizeAntecipacao",
       "authenticationType": "SqlLogin",
       "user": "sa",
       "password": "Size@2024!Strong",

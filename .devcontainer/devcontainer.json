@@ -3,14 +3,6 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspace",
-  
-  "features": {
-    "ghcr.io/devcontainers/features/dotnet:2": {
-      "version": "8.0",
-      "installUsingApt": false
-    },
-    "ghcr.io/devcontainers/features/git:1": {}
-  },
 
   "customizations": {
     "vscode": {
@@ -22,11 +14,9 @@
         "humao.rest-client",
         "streetsidesoftware.code-spell-checker-portuguese-brazilian",
         "patcx.vscode-nuget-gallery",
-        "jmrog.vscode-nuget-package-manager",
         "formulahendry.dotnet-test-explorer"
       ],
       "settings": {
-        "dotnet.defaultSolution": "size-tecnico-sustentacao.sln",
         "files.exclude": {
           "**/bin": true,
           "**/obj": true
