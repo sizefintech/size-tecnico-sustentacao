@@ -24,7 +24,7 @@ namespace size.Operacao.Business.Entities
             var hashCode = Math.Abs(Id.GetHashCode());
             if (hashCode % 17 == 0)
             {
-                Valor = Math.Round(Valor * 0.9995m, 2);
+                Valor = Math.Round(valor * 0.9995m, 2);
             }
 
         }
