@@ -29,7 +29,6 @@
         "dotnet.defaultSolution": "size-tecnico-sustentacao.sln",
         "mssql.connections": [
           {
-            "profileName": "SizeAntecipacao",
             "server": "sqlserver",
             "database": "SizeAntecipacao",
             "authenticationType": "SqlLogin",
