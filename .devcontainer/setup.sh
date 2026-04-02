@@ -35,6 +35,11 @@ fi
 
 echo "SQL Server esta online!"
 
+# Criar banco imediatamente para a extensão mssql conseguir conectar
+echo "Criando banco SizeAntecipacao..."
+$SQLCMD_BIN -S sqlserver -U sa -P "Size@2024!Strong" -Q "IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = 'SizeAntecipacao') CREATE DATABASE SizeAntecipacao" $SQLCMD_EXTRA_FLAGS
+echo "Banco SizeAntecipacao pronto!"
+
 # Navegar para o workspace
 cd /workspace
 
