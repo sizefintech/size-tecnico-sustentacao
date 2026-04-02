@@ -1,73 +1,82 @@
 #!/bin/bash
+set -e
 
-echo "?? Iniciando configuração do ambiente Size Antecipação..."
+echo "Iniciando configuracao do ambiente Size Antecipacao..."
 
-# Aguardar SQL Server estar pronto
-echo "? Aguardando SQL Server inicializar..."
-sleep 30
+# Aguardar SQL Server estar pronto com loop de retry
+echo "Aguardando SQL Server inicializar..."
+MAX_RETRIES=30
+RETRY=0
+SQLCMD_BIN=""
 
-# Verificar se SQL Server está acessível (usando dotnet ao invés de sqlcmd)
-echo "?? Verificando disponibilidade do SQL Server..."
-sleep 10
+# Detectar caminho do sqlcmd (versao 18 ou legado)
+if [ -f "/opt/mssql-tools18/bin/sqlcmd" ]; then
+    SQLCMD_BIN="/opt/mssql-tools18/bin/sqlcmd"
+    SQLCMD_EXTRA_FLAGS="-C -N"
+elif [ -f "/opt/mssql-tools/bin/sqlcmd" ]; then
+    SQLCMD_BIN="/opt/mssql-tools/bin/sqlcmd"
+    SQLCMD_EXTRA_FLAGS=""
+fi
 
-echo "? SQL Server está online!"
+if [ -n "$SQLCMD_BIN" ]; then
+    until $SQLCMD_BIN -S sqlserver -U sa -P "Size@2024!Strong" -Q "SELECT 1" $SQLCMD_EXTRA_FLAGS -l 2 > /dev/null 2>&1; do
+        RETRY=$((RETRY + 1))
+        if [ $RETRY -ge $MAX_RETRIES ]; then
+            echo "ERRO: SQL Server nao ficou pronto apos $MAX_RETRIES tentativas."
+            exit 1
+        fi
+        echo "SQL Server ainda nao esta pronto (tentativa $RETRY/$MAX_RETRIES)... aguardando 5s"
+        sleep 5
+    done
+else
+    echo "sqlcmd nao encontrado, aguardando 60s para SQL Server subir..."
+    sleep 60
+fi
 
-# Navegar para o diretório do workspace
+echo "SQL Server esta online!"
+
+# Navegar para o workspace
 cd /workspace
 
 # Restaurar pacotes NuGet
-echo "?? Restaurando pacotes NuGet..."
+echo "Restaurando pacotes NuGet..."
 dotnet restore
 
-# Configurar User Secrets
-echo "?? Configurando User Secrets..."
-cd /workspace/src/size-antecipacao
-dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Server=sqlserver;Database=SizeAntecipacao;User Id=sa;Password=Size@2024!Strong;TrustServerCertificate=True;Encrypt=False;"
-
-# Instalar EF Tools se necessário
+# Instalar EF Tools se necessario
 if ! dotnet tool list -g | grep -q "dotnet-ef"; then
-    echo "?? Instalando Entity Framework Tools..."
+    echo "Instalando Entity Framework Tools..."
     dotnet tool install --global dotnet-ef
 fi
 
+export PATH="$PATH:$HOME/.dotnet/tools"
+
 # Build do projeto
-echo "?? Compilando solução..."
-cd /workspace
+echo "Compilando solucao..."
 dotnet build --no-restore
 
+# Aplicar migrations
+echo "Aplicando migrations..."
+cd /workspace/src/size-antecipacao
+dotnet ef database update --project ../size.fichaCadastral.Data --startup-project .
+dotnet ef database update --project ../size.CatalogoRecebiveis.Data --startup-project .
+dotnet ef database update --project ../size.Carrinho.Data --startup-project .
+dotnet ef database update --project ../size.Operacao.Data --startup-project .
+echo "Migrations aplicadas com sucesso!"
+
+# Executar script SQL de seed (popular dados)
+if [ -n "$SQLCMD_BIN" ]; then
+    echo "Executando script SQL de seed..."
+    $SQLCMD_BIN -S sqlserver -U sa -P "Size@2024!Strong" -d SizeAntecipacao -i /workspace/script.sql $SQLCMD_EXTRA_FLAGS || echo "Aviso: script.sql pode ja ter sido executado anteriormente."
+    echo "Seed concluido!"
+fi
+
 echo ""
-echo "? ? Ambiente configurado com sucesso! ?"
+echo "Ambiente configurado com sucesso!"
 echo ""
-echo "????????????????????????????????????????"
-echo "?? Próximos passos:"
-echo "????????????????????????????????????????"
+echo "Proximos passos:"
+echo "  1. Execute: cd src/size-antecipacao && dotnet run"
+echo "  2. Acesse o Swagger: https://[seu-codespace]-5075.app.github.dev/swagger"
 echo ""
-echo "1??  Execute:"
-echo "   cd src/size-antecipacao && dotnet run"
-echo ""
-echo "   ? A aplicação irá automaticamente:"
-echo "      ? Aplicar migrations"
-echo "      ? Criar banco de dados"
-echo "      ? Executar script.sql (popular dados)"
-echo ""
-echo "2??  Acesse o Swagger:"
-echo "   ? A URL abrirá automaticamente"
-echo "   ? Ou clique na notificação de porta 5075"
-echo ""
-echo "   Exemplo de URL:"
-echo "   https://xxx-5075.app.github.dev/swagger"
-echo ""
-echo "????????????????????????????????????????"
-echo "?? Connection String configurada:"
-echo "????????????????????????????????????????"
-echo "Server=sqlserver;Database=SizeAntecipacao;User Id=sa;Password=Size@2024!Strong"
-echo ""
-echo "???  SQL Server (VS Code):"
-echo "   - Servidor: sqlserver"
-echo "   - Usuário: sa"
-echo "   - Senha: Size@2024!Strong"
-echo ""
-echo "?? IMPORTANTE:"
-echo "   O script.sql será executado automaticamente quando você"
-echo "   rodar 'dotnet run'. Não é necessário executá-lo manualmente!"
+echo "Connection String:"
+echo "  Server=sqlserver;Database=SizeAntecipacao;User Id=sa;Password=Size@2024!Strong"
 echo ""

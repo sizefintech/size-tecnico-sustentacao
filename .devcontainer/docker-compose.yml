@@ -22,7 +22,6 @@ services:
       - MSSQL_PID=Developer
     volumes:
       - sqlserver-data:/var/opt/mssql
-      - ../script.sql:/docker-entrypoint-initdb.d/script.sql:ro
     ports:
       - "1433:1433"
 
