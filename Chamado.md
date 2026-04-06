@@ -16,5 +16,5 @@ Cliente informa que em alguns casos o valor da duplicata está diferente do valo
 
 ## Esperado
 - Valor da duplicata deve corresponder exatamente ao valor da operação
-- Valor Liquido será sempre diferente, mas o Bruto 
+- Valor Bruto na CatalogoRecebiveis.Duplicata não pode ser diferente do Valor Bruto na Operacoes.Duplicatas
 
